@@ -1,0 +1,60 @@
+div {
+  display: inline-block;
+}
+nav {
+  background-color: rgb(25, 88, 80);
+  padding: 0;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 600;
+}
+ul {
+  /* overflow: hidden; */
+  padding-left: 18px;
+  padding-top: 0px;
+  height: 40px;
+}
+
+li {
+  list-style-type: none;
+  float: left;
+  margin-right: 0;
+  margin-left: 0;
+  padding-top: 10px;
+  padding-right: 6px;
+  padding-left: 6px;
+  
+  border: 1px solid transparent;
+  height: 40px;
+}
+li:hover {
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+.hamburger-menu-div-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0;
+  padding-left: 0;
+}
+.hamburger-menu-container {
+  width: 19px;
+  height: 24px;
+  background-repeat: no-repeat;
+  padding-top: 5px;
+  background-image: url(amazon-nav-images/menu.png);
+  background-size: cover;
+  background-position-y: -3px;
+  margin-top: 6px
+}
+
+.menu-text {
+  margin-left: 5px;
+  margin-top: px;
+}

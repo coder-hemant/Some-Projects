@@ -1,0 +1,21 @@
+.bg-image-container {
+  position: absolute;
+  top: 100px;
+  
+  height: 599px;
+  width: 100%;
+  background-image: url(amazon-body-images/bg-image.jpg);
+  background-size: cover;
+  background-position-x: -75px;
+  /* box-shadow: inset 0 -120px 200px white; */
+}
+.for-shadow {
+  z-index: 99;
+  width: 1349px;
+  height: 250px;
+  top: 100vh;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 -150px 200px white;
+  /* background-color: red; */
+}
